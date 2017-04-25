@@ -1,3 +1,13 @@
-# TensorflowStuff
-Programs using Tensorflow
-Test commit 
+# Tensorflow Programs and Tutorials
+
+This repository will contain Tensorflow tutorials on a lot of the most popular deep learning concepts. It'll also contain some experiments on cool papers that I read. Hopefully, the notebooks will be helpful to anyone reading!
+
+* CNN's with Noisy Labels - This notebook looks at a recent [paper](https://arxiv.org/pdf/1703.08774.pdf){:target="_blank"} that discusses how convolutional neural networks that are trained on random labels (with some probability) are still able to acheive good accuracy on MNIST. I thought that the paper showed some eye-brow raising results, so I went ahead and tried it out for myself. It was pretty amazing to see that even when training a CNN with random labels 50% of the time, and the correct labels the other 50% of the time, the network was still able to get a 90+% accuracy. 
+
+* Character Level RNN - This notebook shows you how to train a character level RNN in Tensorflow. The idea was inspired by Andrej Karpathy's famous [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/){:target="_blank"} and was based on this [Keras implementation](http://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/){:target="_blank"}. In this notebook, you'll learn more about what the model is doing, and how you can input your own dataset, and train a model to generate similar looking text. 
+
+* ConvolutionalNeuralNet - This notebook goes through a simple convolutional neural network implementation in Tensorflow. The model is very similar to the own described in the [Tensorflow docs](https://www.tensorflow.org/tutorials/deep_cnn){:target="_blank"}. Hopefully this notebook can give you a better understanding of what is necessary to create and train your own CNNs. For a more conceptual view of CNNs, check out my introductory [blog post](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/){:target="_blank"} on them. 
+
+* Generative Adversarial Networks Tutorial - This notebook goes through the creation of a generative adversarial network. GANs are one of the hottest topics in deep learning. From a high level, GANs are composed of two components, a generator and a discriminator. The discriminator has the task of determining whether a given image looks natural (ie, is an image from the dataset) or looks like it has been artificially created. The task of the generator is to create natural looking images that are similar to the original data distribution, images that look natural enough to fool the discriminator network.For more of a conceptual view of GANs, check out my [blog post](https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-1-Generative-Adversarial-Nets){:target="_blank"}.
+
+* Linear Regression - This notebook shows you how Tensorflow is not just a deep learning library, but is a library centered on numerical computation, which allows you to create classic machine learning models relatively easily. 
