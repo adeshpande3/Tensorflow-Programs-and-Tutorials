@@ -1,3 +1,4 @@
 tensorboard/*
 MNIST_data/*
+.ipynb_checkpoints/*.ipynb
 
