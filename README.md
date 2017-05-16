@@ -13,3 +13,5 @@ This repository will contain Tensorflow tutorials on a lot of the most popular d
 * **Linear and Logistic Regression** - This notebook shows you how Tensorflow is not just a deep learning library, but is a library centered on numerical computation, which allows you to create classic machine learning models relatively easily. Linear regression and logistic regression are two of the most simple, yet useful models in all of machine learning. 
 
 * **Simple Neural Networks** - This notebook shows you how to create simple 1 and 2 layer neural networks. We'll then see how these networks perform on MNIST, and look at the type of hyperparamters that affect a model's accuracy (network architecture, weight initialization, learning rate, etc)
+
+* **Math in Tensorflow** - This notebook introduces you to variables, constants, and placeholders in Tensorflow. It'll go into describing sessions, and showinng you how to perform typical mathematical operations and deal with large matrices. 
