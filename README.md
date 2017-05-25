@@ -15,3 +15,5 @@ This repository will contain Tensorflow tutorials on a lot of the most popular d
 * **Simple Neural Networks** - This notebook shows you how to create simple 1 and 2 layer neural networks. We'll then see how these networks perform on MNIST, and look at the type of hyperparamters that affect a model's accuracy (network architecture, weight initialization, learning rate, etc)
 
 * **Math in Tensorflow** - This notebook introduces you to variables, constants, and placeholders in Tensorflow. It'll go into describing sessions, and showinng you how to perform typical mathematical operations and deal with large matrices. 
+
+* **QUestion Pair Classification with RNNs** - This notebook looks at the newly released question pair [dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs) released by Quora a little earlier this year. It looks at the ways in which you can build a machine learning model to predict whether two sentences are duplicates of one another. 
