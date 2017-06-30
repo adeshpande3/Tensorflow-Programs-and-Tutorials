@@ -16,6 +16,15 @@ This repository will contain Tensorflow tutorials on a lot of the most popular d
 
 * **Math in Tensorflow** - This notebook introduces you to variables, constants, and placeholders in Tensorflow. It'll go into describing sessions, and showinng you how to perform typical mathematical operations and deal with large matrices. 
 
-* **Question Pair Classification with RNNs** - This notebook looks at the newly released question pair [dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs) released by Quora a little earlier this year. It looks at the ways in which you can build a machine learning model to predict whether two sentences are duplicates of one another. 
+* **Question Pair Classification with RNNs** - This notebook looks at the newly released question pair [dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs) released by Quora a little earlier this year. It looks at the ways in which you can build a machine learning model to predict whether two sentences are duplicates of one another. Before running this notebook, it's very important to extract all the data. We'll run the following command to get our word vectors and training/testing matrices. 
+   ```bash
+   tar -xvzf Data/Quora/QuoraData.tar.gz
+   ```
 
 * **SELU Nonlinearity** - A recent [paper](https://arxiv.org/pdf/1706.02515.pdf) titled "Self Normalizing Neural Networks" started getting a lot of buzz starting in June 2017. The main contribution of the paper was this new nonlinear activation function called a SELU (scaled exponential linear unit). We'll be looking at how this function performs in practice with simple neural nets and CNNs. 
+
+* **Sentiment Analysis with LSTMs** - In this notebook, we'll be looking at how to apply deep learning techniques to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text's emotional tone is positive, negative or neutral. We'll look at why RNNs and LSTMs are the most popular choices for handling natural language processing tasks. Be sure to run the following commands to get our word vectors and training data. 
+   ```bash
+   tar -xvzf Data/Sentiment/models.tar.gz
+   tar -xvzf Data/Sentiment/training_data.tar.gz
+   ```
